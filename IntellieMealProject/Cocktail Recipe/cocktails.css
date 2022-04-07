@@ -1,13 +1,15 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
 }
 
+
 html {
-    background-color: black;
+    background-color: rgb(26, 26, 27);
 }
 
 header {
-    background-color: green;
+    background-color: #74F529;
     height: 50px;
 }
 
@@ -21,6 +23,10 @@ h2 {
     font-size: 34px;
     justify-content: center;
     text-align: center;
+    color: white;
+}
+
+h3 {
     color: white;
 }
 
@@ -73,7 +79,7 @@ select {
 
 button {
     list-style: none;
-    background-color: green;
+    background-color: #74F529;
     color: white;
     padding: 5px 20px;
     margin: 5px;    
@@ -94,14 +100,14 @@ button:hover {
 .recipe-ingredients {
     list-style: none;
     padding: 25px;
-    background-color: green;
+    background-color: #74F529;
     color: white;
     border-radius: 20px;
     margin-top: 20px;
 }
 
 .recipe-instructions {
-    background-color: green;
+    background-color: #74F529;
     color: white;
     border-radius: 20px;
     line-height: 2em;
