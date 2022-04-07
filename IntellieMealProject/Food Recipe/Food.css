@@ -52,12 +52,9 @@ input {
   background-color: rgb(223, 223, 223);
   display: inline-block;
 }
-form ion-icon {
-  width: 8%;
-  font-size: 3rem;
-  margin-bottom: -8px;
-  color: rgb(75, 75, 75);
-  display: inline-block;
+i{
+  color: #404041;
+  font-size: 30px;
 }
 .search-result {
   margin-top: 50px;
@@ -120,7 +117,22 @@ form ion-icon {
   padding: 20px;
   font-size: 3rem;
 }
+.cocktail-recipe{
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  padding: 10px 0;
+  background-color: #404041;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 4px;
+  align-self: flex-start;
+}
 
+}
 @media (max-width: 768px) {
   .search-result {
     grid-gap: 10px;
