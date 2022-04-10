@@ -3,12 +3,25 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins' sans-serif;
 }
-img {
+
+:root {
+  --color1: #63d471;
+  --color2: #335A3B;
+  --fonts: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color1);
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
 }
+
 html {
   font-family: "Nunito";
   font-size: 12px;
@@ -22,6 +35,13 @@ section {
   justify-content: center;
   padding: 100px 0;
   background-color: rgb(26, 26, 27);
+}
+
+h2 {
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
 .container {
   width: 100%;
@@ -123,7 +143,7 @@ i{
   text-align: center;
   width: 130px;
   padding: 10px 0;
-  background-color: #404041;
+  background-color: var(--color1);
   color: whitesmoke;
   font-size: 1.4rem;
   font-weight: 600;
@@ -132,7 +152,7 @@ i{
   align-self: flex-start;
 }
 
-}
+
 @media (max-width: 768px) {
   .search-result {
     grid-gap: 10px;
