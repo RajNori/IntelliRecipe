@@ -1,26 +1,36 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color1: #63d471;
+    --color2: #335A3B;
+    --fonts: 'Poppins', sans-serif;
 }
 
 
 html {
-    background-color: rgb(26, 26, 27);
+    box-sizing: border-box;
+    background-color: black;
 }
 
 header {
-    background-color: #74F529;
-    height: 50px;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
 }
 
-h1 {
-    text-align: center;
-    font-size: 40px;
-    color: white;
+.header-container {
+    align-items: center;
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 50px;
     justify-content: center;
     text-align: center;
     color: white;
@@ -69,7 +79,7 @@ select {
 }
 
 #drink {
-    min-height: 100vh;
+    min-height: 65vh;
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -79,7 +89,7 @@ select {
 
 button {
     list-style: none;
-    background-color: #74F529;
+    background-color: var(--color1);
     color: white;
     padding: 5px 20px;
     margin: 5px;    
@@ -100,17 +110,18 @@ button:hover {
 .recipe-ingredients {
     list-style: none;
     padding: 25px;
-    background-color: #74F529;
+    background-color: var(--color1);
     color: white;
     border-radius: 20px;
     margin-top: 20px;
 }
 
 .recipe-instructions {
-    background-color: #74F529;
+    background-color: var(--color1);
     color: white;
     border-radius: 20px;
     line-height: 2em;
     box-sizing: border-box;
     padding: 15px 30px;
 }
+
