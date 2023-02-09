@@ -31,7 +31,6 @@ To bring IntelliRecipe to life, the following tools and technologies will be uti
 - JavaScript
 - The CocktailDB API
 - Edamam API
-- React
 - Node.js
 - Express
 - MongoDB
